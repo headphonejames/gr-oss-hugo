@@ -127,8 +127,6 @@ Params:
 ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
 Menu:
   Main:
-    - name: "Open Source"
-      # identifier controls the section type (and therewith the appearence).
     - name: "G-Research"
       identifier: gresearch
       url: "/#gresearch"
