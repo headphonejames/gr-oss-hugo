@@ -1,5 +1,5 @@
 letsChat:
-  other: Offline connection?
+  other: Get in touch
 developer:
   other: Module Developer
 designer:
@@ -7,7 +7,7 @@ designer:
 sponsor:
   other: Sponsor
 message:
-  other: Where is the fun?
+  other: Message
 get:
   other: Get it
 example:

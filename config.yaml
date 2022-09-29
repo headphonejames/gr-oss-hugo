@@ -1,8 +1,8 @@
-title: "You are interesting"
-baseURL: "https://youareinteresting.org"
+title: "GR-OSS"
+baseURL: "https://gresearchoss.io"
 languageCode: "en-US"
 theme: ["github.com/kdevo/osprey-delight/v5"]
-tags: ["personal", "social experience", "portfolio", "performance art", "you are interesting"]
+tags: ["open source"]
 #canonifyURLS: true
 googleAnalytics: true
 disableKinds: ["taxonomy", "taxonomyTerm"]
@@ -20,36 +20,36 @@ module:
 ## Generic theme parameters:
 Params:
   author: "Headphone James"
-  description: "You are interesting."
+  description: "G-Research Open Source Systems"
   GoogleAnalyticsID: ""
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing.
-  logoBig: "YAI-logo-color.png"
+  logoBig: "gr-oss-logo.png"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
-  logoSmall: "YAI-logo-color.png"
+  logoSmall: "gr-oss-logo.png"
 
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
   #background: "background.jpg"
 
   # opengraphImage specifies the image that is shown when previewing the site in a messenger or Google Search.
-  opengraphImage: "YAI-logo-color.png"
+  opengraphImage: "gr-oss-logo.png"
 
   # favicon of the site (e.g. smaller version of logoSmall).
-  favicon: "YAI-logo-color.png"
+  favicon: "gr-oss-logo.png"
 
   # theme your site by choosing one of the themes under assets/sass/themes:
   #   - delight is the light version of osprey-delight
   #   - dedark is the dark version of "delight"
   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
-  theme: "delight"
+  theme: "dedark"
 
   # tagline (followed by a cursor) is shown at the top, below the logo
   #tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "# An experiment in fun and connection\n ### *Burning Man meets Tech Conference{cursor}*"
+  mdTagline: "# G-Research Open Source Systems"
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site.
@@ -67,22 +67,14 @@ Params:
   ##   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
   Social:
     - type: github
-      url: "https://github.com/headphonejames/"
-    - type: linkedin
-      url: "https://www.linkedin.com/in/headphonejames/"
-    - type: spotify
-      url: https://open.spotify.com/artist/6GmYm47Zgk3tvoCeJbsH5r
-    - type: instagram
-      url: https://www.instagram.com/headphonejames/
+      url: "https://github.com/g-research/"
     - type: youtube
-      url: https://www.youtube.com/channel/UCTiKBhNy0zXN9g8tk5O15hQ
-    - type: facebook # references the icon to use
-      url: "https://facebook.com/headphonejames"
+      url: https://www.youtube.com/c/GResearchquantfinance
 
   ## Additional theme features:
   Feat:
     # ajaxBasin requires Basin setup for a free contact form (see instructions in README).
-    ajaxBasin: "https://usebasin.com/f/"
+    ajaxBasin: "https://usebasin.com/f/9069261ec6cf"
 
     # useStructuredData for your own https://schema.org/Person (SEO-friendly).
     #   This will be auto-generated dependent on the information you provide in this configuration.
@@ -90,7 +82,7 @@ Params:
 
     # structuredDataGitHubUser will tell the theme to use your USERNAME for querying the GitHub API to fetch more information about you for structured data.
     #   This will use information that is publically available about your GitHub user profile at https://api.github.com/users/{USERNAME}.
-    structuredDataGitHubUser: "headphonejames"
+    structuredDataGitHubUser: ""
 
     # useTermynal enables Termynal (https://github.com/ines/termynal), a small JS library for showing a terminal "animation" from within your gallery item.
     #   The library has been stripped-down to a minimum to only have the necessary functionality.
@@ -135,29 +127,16 @@ Params:
 ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
 Menu:
   Main:
-    - name: "What & Who"
+    - name: "Open Source"
       # identifier controls the section type (and therewith the appearence).
-      identifier: what-and-who
-      # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
-      url: "/#what"
-      # weight controls the order of the menu items.
+    - name: "G-Research"
+      identifier: gresearch
+      url: "/#gresearch"
       weight: 1
-    - name: "Why"
-      identifier: why
-      url: "/#why"
-      weight: 2
-    - name: "How"
-      identifier: how
-      url: "/#how"
-      weight: 3
-    - name: "Then What"
-      identifier: results
-      url: "/#impact"
-      weight: 4
     - name: "Contact"
       identifier: contact
       url: "/#contact"
-      weight: 5
+      weight: 2
 
 
     # - name: ""
