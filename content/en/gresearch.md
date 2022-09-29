@@ -7,13 +7,13 @@ description: "G-Research Open Source Systems"
 ---
 We are the open source team at G-Research Systems. We have a large and wide range of impact in the Open Source ecosystem.
 
-G-Research has created and evolves:
+## Contributions:
 
 [Armada](https://github.com/G-Research/armada): a multi-Kubernetes cluster batch job scheduler. Fortified, we eat our own dog food.
 
 [Other projects](https://github.com/topics/gr-oss)
 
-G-Research contributes to and helps evolve:
+## Helping evolve:
 
 [Open Stack](https://www.openstack.org/): a set of software components that provide common services for cloud infrastructure.
 
