@@ -5,7 +5,7 @@ draft: false
 description: "G-Research Open Source Systems"
 
 ---
-We are the open source team at G-Research Systems. We have a large and wide range of impact in the Open Source ecosystem.
+We are the open source team at [G-Research Systems](https://www.gresearch.co.uk/). We have a large and wide range of impact in the Open Source ecosystem.
 
 ## Contributions:
 
