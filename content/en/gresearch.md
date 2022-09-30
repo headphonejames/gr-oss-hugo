@@ -2,7 +2,7 @@
 title: "What we do"
 date: "2022-09-28T08:01:09-07:00"
 draft: false
-description: "G-Research Open Source Systems"
+description: "G-Research Open Source Software"
 
 ---
 We are the open source team at [G-Research Systems](https://www.gresearch.co.uk/). We have a large and wide range of impact in the Open Source ecosystem.

@@ -20,7 +20,7 @@ module:
 ## Generic theme parameters:
 Params:
   author: "Headphone James"
-  description: "G-Research Open Source Systems"
+  description: "G-Research Open Source Software"
   GoogleAnalyticsID: ""
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing.
@@ -49,7 +49,7 @@ Params:
   #tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "# G-Research Open Source Systems"
+  mdTagline: "# G-Research Open Source Software"
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site.
