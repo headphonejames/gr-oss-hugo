@@ -21,7 +21,7 @@ module:
 Params:
   author: "Headphone James"
   description: "G-Research Open Source Software"
-  GoogleAnalyticsID: ""
+  GoogleAnalyticsID: "G-P4KXQXNYLV"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing.
   logoBig: "gr-logo.png"
